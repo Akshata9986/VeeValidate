@@ -1,17 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <vee-validate />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import VeeValidate from "./components/VeeValidate.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    VeeValidate,
+  },
+};
 </script>
 
 <style>
